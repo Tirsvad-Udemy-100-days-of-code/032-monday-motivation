@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "monday-motivation"
+version = "0.1.0"
+description = "Send a motivational quote by email every Monday (Udemy 100 Days of Code, day 32)."
+readme = "README.md"
+requires-python = ">=3.13"
+license = { file = "LICENSE" }
+authors = [{ name = "Jens Tirsvad Nielsen" }]
+keywords = ["email", "smtp", "quotes", "udemy", "100-days-of-code"]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "coverage>=7", "ruff>=0.6", "mypy>=1.11"]
+
+[project.scripts]
+monday-motivation = "monday_motivation.presentation.cli:run"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"monday_motivation.infrastructure" = ["data/*.txt"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 88
+target-version = "py313"
+src = ["src", "tests"]
+extend-exclude = ["framework"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "UP", "B", "D"]
+ignore = ["D203", "D213"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["D"]
+
+[tool.mypy]
+strict = true
+python_version = "3.13"
+mypy_path = "src"

@@ -9,7 +9,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-17 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version: baseline documents and their reviews | [7d48d63] |
+| 2026-10-17 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version: baseline documents and their reviews | [7d48d63] |
+| 2026-10-17 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added PY-001 and RC-007 (MIL-001 foundation) | [cd031d7] |
 
 ---
 
@@ -28,6 +29,7 @@ Tracks backward and forward links between artifact instances so that the Busines
 | [MIL-001] | MIL | en | it | [BC-001], [PP-001] | source code, [MIL-002] | [RC-004] |
 | [MIL-002] | MIL | en | it | [BC-001], [PP-001], [MIL-001] | source code, [MIL-003] | [RC-005] |
 | [MIL-003] | MIL | en | it | [BC-001], [PP-001], [MIL-002] | README, wiki | [RC-006] |
+| [PY-001] | PY | - | - | [MIL-001] | - | [RC-007] |
 
 ## Coverage Notes
 
@@ -51,3 +53,6 @@ Tracks backward and forward links between artifact instances so that the Busines
 [RC-005]: ./reviews/rc-005-mil-002.md
 [RC-006]: ./reviews/rc-006-mil-003.md
 [7d48d63]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/032-monday-motivation/commit/7d48d63e6b73c5d2459bac3bd6720751726d1d6f
+[PY-001]: ../../src/monday_motivation/
+[RC-007]: ./reviews/rc-007-python-foundation.md
+[cd031d7]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/032-monday-motivation/commit/cd031d736658b487481202c9ed6118b626d84085
