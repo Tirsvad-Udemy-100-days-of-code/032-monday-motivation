@@ -1,0 +1,1 @@
+English is the authoritative text; [Dansk](Home-da) and [Bahasa Malaysia](Home-ms) follow it page by page. The Danish and Bahasa Malaysia pages were written by an AI stand-in and have not been checked by a person who reads those languages. · [Repository](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/032-monday-motivation)
