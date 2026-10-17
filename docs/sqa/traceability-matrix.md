@@ -9,8 +9,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-17 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added PY-001 and RC-007 (MIL-001 foundation) | [cd031d7] |
-| 2026-10-17 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added PY-002 and RC-008 (MIL-002 core) | [4cbd1cc] |
+| 2026-10-17 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added PY-002 and RC-008 (MIL-002 core) | [4cbd1cc] |
+| 2026-10-17 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | MIL-003: coverage note on README, wiki and screenshots | [70d79de] |
 
 ---
 
@@ -37,6 +37,7 @@ Tracks backward and forward links between artifact instances so that the Busines
 - No instance yet of KPI, BMC, BPMN, UCD, US, UC, DM, SSD, OC, SD, DCD, ERD or ADR: the program is a single feature with plain technical tasks (see the Plan Risks and Scope in [PP-001]).
 - `-` in Upstream means foundational; in Downstream it means nothing is built on it yet; in Last Reviewed it means no `RC-*` exists. [PP-001] has no QC checklist yet and is accepted by S01.
 - Review records of source code are added in the milestone that produces the code.
+- The README, the wiki (`docs/wiki/`) and the screenshots (`docs/images/`) are documentation, not artifacts with an ID; they are checked with `check-readme.sh` and the MIL-003 Go/No-Go criteria.
 
 ---
 
@@ -55,7 +56,7 @@ Tracks backward and forward links between artifact instances so that the Busines
 [RC-006]: ./reviews/rc-006-mil-003.md
 [PY-001]: ../../src/monday_motivation/
 [RC-007]: ./reviews/rc-007-python-foundation.md
-[cd031d7]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/032-monday-motivation/commit/cd031d736658b487481202c9ed6118b626d84085
 [PY-002]: ../../src/monday_motivation/
 [RC-008]: ./reviews/rc-008-python-core.md
 [4cbd1cc]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/032-monday-motivation/commit/4cbd1cc75fb65f59682f854b61220fe250707c37
+[70d79de]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/032-monday-motivation/commit/70d79dec5c7933b71652c1ce87c6f49b4c4ca449

@@ -5,10 +5,9 @@
 PROJECT_NAME           = "Monday Motivation"
 PROJECT_BRIEF          = "Send a motivational quote by email every Monday"
 OUTPUT_DIRECTORY       = doxygen-out
-INPUT                  = src README.md
-FILE_PATTERNS          = *.py *.md
+INPUT                  = src
+FILE_PATTERNS          = *.py
 RECURSIVE              = YES
-USE_MDFILE_AS_MAINPAGE = README.md
 OPTIMIZE_OUTPUT_JAVA   = YES
 EXTRACT_ALL            = YES
 AUTOLINK_SUPPORT       = YES
