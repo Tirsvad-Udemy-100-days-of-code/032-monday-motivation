@@ -11,7 +11,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-17 | Accepted | Jens Tirsvad Nielsen | S01 | Initial version: three gateways | [7d48d63] |
+| 2026-10-17 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version: three gateways | [7d48d63] |
+| 2026-10-17 | Accepted | Jens Tirsvad Nielsen | S01 | Accepted by S01 as Product Owner after the autonomous run (stand-in review stays on record) | pending |
 
 ---
 

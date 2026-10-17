@@ -11,7 +11,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-17 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version: three stakeholders | [7d48d63] |
+| 2026-10-17 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version: three stakeholders | [7d48d63] |
+| 2026-10-17 | Accepted | Jens Tirsvad Nielsen | S01 | Accepted by S01 as Product Owner after the autonomous run (stand-in review stays on record) | pending |
 
 ---
 
@@ -76,7 +77,7 @@ This analysis names the people who own, use or look at the Monday Motivation pro
 
 ## Sign-Off
 
-Accepted by S01 as Product Owner when the plan is accepted in chat.
+Accepted by S01 as Product Owner: the plan in chat, and all artifacts after the autonomous run.
 
 ---
 
