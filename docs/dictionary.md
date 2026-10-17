@@ -11,7 +11,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-17 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version: eight terms | pending |
+| 2026-10-17 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version: eight terms | [7d48d63] |
 
 ---
 
@@ -41,3 +41,4 @@ Maps each Product Owner (PO) term of the Monday Motivation project to its profes
 
 [BC-001]: ./business-case.md
 [SA-001]: ./stakeholder-analysis.md
+[7d48d63]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/032-monday-motivation/commit/7d48d63e6b73c5d2459bac3bd6720751726d1d6f
