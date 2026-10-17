@@ -31,3 +31,9 @@ ENV_TOKEN: Final[str] = "GMAIL_TOKEN"
 
 ## @brief Environment variable that holds the recipient address.
 ENV_RECIPIENT: Final[str] = "MONDAY_RECIPIENT"
+
+## @brief Sender shown by a dry run when no sender is configured.
+PLACEHOLDER_SENDER: Final[str] = "sender@example.com"
+
+## @brief Recipient shown by a dry run when no recipient is configured.
+PLACEHOLDER_RECIPIENT: Final[str] = "recipient@example.com"
