@@ -10,7 +10,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-17 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added PY-001 and RC-007 (MIL-001 foundation) | [cd031d7] |
-| 2026-10-17 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added PY-002 and RC-008 (MIL-002 core) | pending |
+| 2026-10-17 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added PY-002 and RC-008 (MIL-002 core) | [4cbd1cc] |
 
 ---
 
@@ -58,3 +58,4 @@ Tracks backward and forward links between artifact instances so that the Busines
 [cd031d7]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/032-monday-motivation/commit/cd031d736658b487481202c9ed6118b626d84085
 [PY-002]: ../../src/monday_motivation/
 [RC-008]: ./reviews/rc-008-python-core.md
+[4cbd1cc]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/032-monday-motivation/commit/4cbd1cc75fb65f59682f854b61220fe250707c37

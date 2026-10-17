@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-17 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial review record | pending |
+| 2026-10-17 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial review record | [4cbd1cc] |
 
 ---
 
@@ -59,3 +59,4 @@ Go — all applicable Mandatory criteria pass; criterion 10 is not applicable be
 
 [PY-002]: ../../../src/monday_motivation/
 [QC-PY-001]: ../../../framework/qc/code/qc-programming-python.md
+[4cbd1cc]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/032-monday-motivation/commit/4cbd1cc75fb65f59682f854b61220fe250707c37
