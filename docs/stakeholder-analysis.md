@@ -11,7 +11,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-17 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version: three stakeholders | [7d48d63] |
+| 2026-10-17 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version: three stakeholders | [7d48d63] |
+| 2026-10-17 | Accepted | Jens Tirsvad Nielsen | S01 | Accepted by S01 as Product Owner after the autonomous run (stand-in review stays on record) | [61e13cd] |
 
 ---
 
@@ -76,9 +77,10 @@ This analysis names the people who own, use or look at the Monday Motivation pro
 
 ## Sign-Off
 
-Accepted by S01 as Product Owner when the plan is accepted in chat.
+Accepted by S01 as Product Owner: the plan in chat, and all artifacts after the autonomous run.
 
 ---
 
 [BC-001]: ./business-case.md
 [7d48d63]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/032-monday-motivation/commit/7d48d63e6b73c5d2459bac3bd6720751726d1d6f
+[61e13cd]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/032-monday-motivation/commit/61e13cdbe9cffdc9181e78eb16036f80bd3942d5
