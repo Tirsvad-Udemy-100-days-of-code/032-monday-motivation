@@ -47,7 +47,7 @@
 
 ## Overall Verdict
 
-Go — all applicable Mandatory criteria pass; criterion 10 is not applicable because the project has no Design Class Diagram. Measured once: 99 % line coverage of `src/` (target 90 %).
+Go — all applicable Mandatory criteria pass; criterion 10 is not applicable because the project has no Design Class Diagram. Measured once: 100 % line coverage of `src/` (target 90 %).
 
 ## Action Items
 
