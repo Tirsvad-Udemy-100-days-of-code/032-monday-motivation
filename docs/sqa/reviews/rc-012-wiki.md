@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-16 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial review record; verdict Go-with-conditions (autonomous, not independent) | pending |
+| 2026-11-16 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial review record; verdict Go-with-conditions (autonomous, not independent) | [8530b42] |
 
 ---
 
@@ -57,3 +57,4 @@ Go-with-conditions — every Mandatory criterion passes except criterion 14, whi
 
 [WIKI]: ../../wiki/
 [QC-WIKI-001]: ../../../framework/qc/artifacts/qc-wiki.md
+[8530b42]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/032-monday-motivation/commit/8530b4238a3ff0fe427a962078c97d8c2db7cff7

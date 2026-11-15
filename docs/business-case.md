@@ -13,7 +13,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-17 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version: Monday Motivation project baseline | [7d48d63] |
 | 2026-10-17 | Deprecated | Jens Tirsvad Nielsen | S01 | Accepted by S01 as Product Owner after the autonomous run (stand-in review stays on record) | [61e13cd] |
-| 2026-11-16 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added objective 7, success criterion 7, a scope item, an out-of-scope item, a risk, an assumption and a constraint for the baseline milestone MIL-004; set the domain to education; reviewed in autonomous mode, not independent | pending |
+| 2026-11-16 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added objective 7, success criterion 7, a scope item, an out-of-scope item, a risk, an assumption and a constraint for the baseline milestone MIL-004; set the domain to education; reviewed in autonomous mode, not independent | [8530b42] |
 
 ---
 
@@ -152,3 +152,4 @@ Proceed — the scope is small, the risks are mitigated, and the outcome meets t
 [7d48d63]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/032-monday-motivation/commit/7d48d63e6b73c5d2459bac3bd6720751726d1d6f
 [61e13cd]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/032-monday-motivation/commit/61e13cdbe9cffdc9181e78eb16036f80bd3942d5
 [MIL-004]: ./milestones/mil-004-framework-baseline.md
+[8530b42]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/032-monday-motivation/commit/8530b4238a3ff0fe427a962078c97d8c2db7cff7
