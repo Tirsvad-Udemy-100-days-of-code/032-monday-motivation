@@ -1,21 +1,12 @@
-**English** — Pages
+**Monday Motivation**
 
 - [Home](Home)
 - [Getting started](Getting-Started)
 - [Usage](Usage)
 - [Development](Development)
 
-**Dansk** — Sider
+**Languages**
 
-- [Hjem](Home-da)
-- [Kom i gang](Getting-Started-da)
-- [Brug](Usage-da)
-- [Udvikling](Development-da)
-
-**Bahasa Malaysia** — Halaman
-
-- [Utama](Home-ms)
-- [Mula di sini](Getting-Started-ms)
-- [Penggunaan](Usage-ms)
-- [Pembangunan](Development-ms)
-
+- English: [Home](Home)
+- Dansk: [Home](Home-da)
+- Bahasa Malaysia: [Home](Home-ms)

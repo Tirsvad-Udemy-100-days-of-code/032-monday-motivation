@@ -4,15 +4,16 @@
 | Key | Value |
 | --- | --- |
 | ID | BC-001 |
-| CrossReference | [SA-001] |
+| CrossReference | [SA-001], [MIL-004] |
 | Language | en |
-| Domain | it |
+| Domain | education |
 
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-17 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version: Monday Motivation project baseline | [7d48d63] |
-| 2026-10-17 | Accepted | Jens Tirsvad Nielsen | S01 | Accepted by S01 as Product Owner after the autonomous run (stand-in review stays on record) | [61e13cd] |
+| 2026-10-17 | Deprecated | Jens Tirsvad Nielsen | S01 | Accepted by S01 as Product Owner after the autonomous run (stand-in review stays on record) | [61e13cd] |
+| 2026-11-16 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added objective 7, success criterion 7, a scope item, an out-of-scope item, a risk, an assumption and a constraint for the baseline milestone MIL-004; set the domain to education; reviewed in autonomous mode, not independent | [8530b42] |
 
 ---
 
@@ -42,6 +43,7 @@ A clean solution lets the course participant demonstrate disciplined practice (p
 4. Cover the rules with automated `pytest` tests that need neither network nor credentials.
 5. Document how to create a local `.venv`, upgrade `pip`, run the program and run the tests, in the README and in a wiki in English, Danish and Bahasa Malaysia, with screenshots.
 6. Publish the repository with a description and topics.
+7. Bring the finished project to the common baseline of the framework: the adopted framework release, the wiki in the framework's shape, complete licence metadata and review records for every changed document ([MIL-004]).
 
 ## Scope
 
@@ -52,6 +54,7 @@ A clean solution lets the course participant demonstrate disciplined practice (p
 - Functions named after the assignment's steps: reading the quotes, picking a random quote, checking for Monday, composing and sending the email.
 - README from the framework template with screenshots; wiki pages in English, Danish and Bahasa Malaysia with screenshots.
 - Repository description and topics on the git host.
+- The baseline milestone [MIL-004]: framework release, the wiki sidebar in the framework's shape, README without the private framework files in its appendix, licence and project URL metadata, `.editorconfig`, `.env.example`, review records and a current traceability matrix. It changes no behaviour of the program.
 
 ### Out of Scope
 
@@ -60,6 +63,7 @@ A clean solution lets the course participant demonstrate disciplined practice (p
 - Providers other than Gmail SMTP as a tested target; the host and port are constants that a reader may change.
 - Sending real mail from tests, from CI or from the screenshots; the mail credentials are for the Product Owner's own use and are never imported into the project.
 - Translating the framework documents; project documents are written once, in English.
+- Any change to `src/` or `tests/` in the baseline milestone [MIL-004].
 
 ## Expected Benefits
 
@@ -88,6 +92,7 @@ The project supports the Product Owner's learning goal in the 100 Days of Code c
 | 4 | Wiki completeness | 3 languages, same page set, each page has at least one screenshot | Page list compared in the milestone review |
 | 5 | Secrets in the repository | 0 values | `git grep` for the token variable names finds only names, never values |
 | 6 | Setup from a clean clone | A new `.venv` is set up and the tests run in 6 commands or fewer | Following the README once |
+| 7 | The baseline milestone is done (objective 7) | The wiki has 12 pages and the sidebar in the framework's shape, `framework/scripts/check-readme.sh` and `framework/scripts/check-languages.sh` exit with code 0, 100 % of the continuous integration (CI) checks of the pull request of [MIL-004] pass | Files in `docs/wiki/`, the script exit codes and the pull request status on the git host |
 
 ## Risks
 
@@ -98,6 +103,7 @@ The project supports the Product Owner's learning goal in the 100 Days of Code c
 | Screenshots show private data | Medium: an address leaks | Screenshots come from a dry run with a placeholder address |
 | Translations contain mistakes | Low: a reader is misled | English is authoritative; Danish and Bahasa Malaysia follow it page by page and are marked as checked by the stand-in only |
 | Scope grows (scheduling, UI) | Low: the deadline slips | Out of Scope lists them; a change needs a new milestone |
+| The documents of the baseline milestone [MIL-004] are reviewed by an AI stand-in for S01 | Medium: a defect is missed because the review is not independent | Every review record of the baseline says `Mode: autonomous, not independent`, and the end-of-run summary lists it for challenge |
 
 ## Assumptions
 
@@ -106,6 +112,7 @@ The project supports the Product Owner's learning goal in the 100 Days of Code c
 - Python 3.13 or later is installed on the machine that runs the program ("greater than 3.13" in the brief is read as 3.13 or later).
 - A Gmail app password exists for the Product Owner's account and is supplied only as an environment variable at run time.
 - The repository `Tirsvad-Udemy-100-days-of-code/032-monday-motivation` on the Gitea host is the target; the organisation URL in the brief names its owner.
+- The Product Owner language is English and the domain is education (it was IT until [MIL-004]; the documents that [MIL-004] does not change keep the domain `it`, see the Open Issues of the Project Plan).
 
 ## Constraints
 
@@ -113,6 +120,7 @@ The project supports the Product Owner's learning goal in the 100 Days of Code c
 - No runtime dependencies unless needed.
 - Folder structure `src/`, `tests/`, `docs/`.
 - Delivery within 2 weeks: from 2026-10-17 to 2026-10-31.
+- The baseline milestone [MIL-004] comes after that window: it starts 2026-11-16 and is finished within one week, by 2026-11-23. For that milestone only, an AI stand-in for S01 reviews and accepts the changed documents.
 - One pull request per milestone, on its own branch.
 - Credentials are never printed, never passed on a command line and never imported into the project.
 
@@ -143,3 +151,5 @@ Proceed — the scope is small, the risks are mitigated, and the outcome meets t
 [SA-001]: ./stakeholder-analysis.md
 [7d48d63]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/032-monday-motivation/commit/7d48d63e6b73c5d2459bac3bd6720751726d1d6f
 [61e13cd]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/032-monday-motivation/commit/61e13cdbe9cffdc9181e78eb16036f80bd3942d5
+[MIL-004]: ./milestones/mil-004-framework-baseline.md
+[8530b42]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/032-monday-motivation/commit/8530b4238a3ff0fe427a962078c97d8c2db7cff7
