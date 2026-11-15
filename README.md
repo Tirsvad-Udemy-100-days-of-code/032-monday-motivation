@@ -25,6 +25,9 @@ On a Monday the program reads `quotes.txt` (one quote per line), picks a random 
 | `tests/` | `pytest` tests (`unit`, `integration`, `e2e`); none uses the network or a credential |
 | `docs/` | Project documents, the wiki pages (English, Danish, Bahasa Malaysia) and the screenshots |
 | `Doxyfile` | Doxygen configuration for the API documentation |
+| `framework/` | The SQA and QC framework (git submodule) |
+| `.editorconfig` | Editor settings of the framework baseline |
+| `.env.example` | Placeholders for the mail variables of the program and the tokens of the framework scripts |
 
 The functions follow the assignment's steps: `is_monday`, `read_quotes`, `pick_random_quote`, `build_message`, `load_settings`, `send_email` and `main`. The date is handed to `is_monday`, so a test can use any day without patching the clock.
 
@@ -114,8 +117,6 @@ The documents a newcomer needs, in reading order.
 | [Artifact registry][registry] | Where each artifact type lives, the next version, the PO language and domain |
 | [Domain dictionary][DICT-001] | The PO terms and the IT terms |
 | [Traceability matrix][TM-001] | How the artifacts link and when each was last reviewed |
-| [Framework README][framework-readme] | The framework this project uses |
-| [Framework changelog][framework-changelog] | What changed in each framework release |
 
 ---
 
@@ -134,5 +135,3 @@ The documents a newcomer needs, in reading order.
 [registry]: ./docs/artifact-registry.md
 [DICT-001]: ./docs/dictionary.md
 [TM-001]: ./docs/sqa/traceability-matrix.md
-[framework-readme]: ./framework/README.md
-[framework-changelog]: ./framework/CHANGELOG.md
